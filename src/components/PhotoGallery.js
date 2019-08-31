@@ -15,16 +15,72 @@ import img14 from "../images/$abba14$.jpg";
 import img15 from "../images/$abba15$.jpg";
 import img16 from "../images/$abba16$.jpg";
 
-const photoGallery = {
-    imgArray: [img1, img2, img3, img4, img5, img6, img7,
-        img8, img9, img10, img11, img12, img13, img14, img15, img16],
-    shuffleArray: function (array) {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
-        }
+const photoGallery = [
+    {
+        id: 1,
+        url: img1,
+    },
+    {
+        id: 2,
+        url: img2,
+    },
+    {
+        id: 3,
+        url: img3
+    },
+    {
+        id: 4,
+        url: img4
+    },
+    {
+        id: 5,
+        url: img5
+    },
+    {
+        id: 6,
+        url: img6
+    },
+    {
+        id: 7,
+        url: img7
+    },
+    {
+        id: 8,
+        url: img8
+    },
+    {
+        id: 9,
+        url: img9
+    },
+    {
+        id: 10,
+        url: img10
+    },
+    {
+        id: 11,
+        url: img11
+    },
+    {
+        id: 12,
+        url: img12
+    },
+    {
+        id: 13,
+        url: img13
+    },
+    {
+        id: 14,
+        url: img14
+    },
+    {
+        id: 15,
+        url: img15
+    },
+    {
+        id: 16,
+        url: img16
     }
-}
+]
 
 
 export default photoGallery;
