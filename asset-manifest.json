@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/clicky-game/static/css/main.c558eaf5.chunk.css",
+    "main.js": "/clicky-game/static/js/main.81650d66.chunk.js",
+    "main.js.map": "/clicky-game/static/js/main.81650d66.chunk.js.map",
+    "runtime~main.js": "/clicky-game/static/js/runtime~main.80bf01e5.js",
+    "runtime~main.js.map": "/clicky-game/static/js/runtime~main.80bf01e5.js.map",
+    "static/js/2.39751294.chunk.js": "/clicky-game/static/js/2.39751294.chunk.js",
+    "static/js/2.39751294.chunk.js.map": "/clicky-game/static/js/2.39751294.chunk.js.map",
+    "index.html": "/clicky-game/index.html",
+    "precache-manifest.9662f43e9bf8f746787059b8c5433d24.js": "/clicky-game/precache-manifest.9662f43e9bf8f746787059b8c5433d24.js",
+    "service-worker.js": "/clicky-game/service-worker.js",
+    "static/css/main.c558eaf5.chunk.css.map": "/clicky-game/static/css/main.c558eaf5.chunk.css.map",
+    "static/media/$abba1$.jpg": "/clicky-game/static/media/$abba1$.eb20c9c6.jpg",
+    "static/media/$abba10$.jpg": "/clicky-game/static/media/$abba10$.3fb75500.jpg",
+    "static/media/$abba11$.jpg": "/clicky-game/static/media/$abba11$.3e98e9ae.jpg",
+    "static/media/$abba12$.jpg": "/clicky-game/static/media/$abba12$.f1c9f961.jpg",
+    "static/media/$abba13$.jpg": "/clicky-game/static/media/$abba13$.2286d3a6.jpg",
+    "static/media/$abba14$.jpg": "/clicky-game/static/media/$abba14$.4b537348.jpg",
+    "static/media/$abba15$.jpg": "/clicky-game/static/media/$abba15$.be29f0d1.jpg",
+    "static/media/$abba16$.jpg": "/clicky-game/static/media/$abba16$.878d1fe2.jpg",
+    "static/media/$abba2$.jpg": "/clicky-game/static/media/$abba2$.193003fb.jpg",
+    "static/media/$abba3$.jpg": "/clicky-game/static/media/$abba3$.957a1202.jpg",
+    "static/media/$abba4$.jpg": "/clicky-game/static/media/$abba4$.2f3d6ce9.jpg",
+    "static/media/$abba5$.jpg": "/clicky-game/static/media/$abba5$.77f19d5e.jpg",
+    "static/media/$abba6$.jpg": "/clicky-game/static/media/$abba6$.d434efcf.jpg",
+    "static/media/$abba7$.jpg": "/clicky-game/static/media/$abba7$.7a76119b.jpg",
+    "static/media/$abba8$.jpg": "/clicky-game/static/media/$abba8$.d90f921b.jpg",
+    "static/media/$abba9$.jpg": "/clicky-game/static/media/$abba9$.0ab0268e.jpg",
+    "static/media/App.css": "/clicky-game/static/media/papyrus-dark.04026feb.png"
+  }
+}
