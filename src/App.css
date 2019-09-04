@@ -3,6 +3,7 @@ body {
     margin: 0px;
     background-image: url("./images/papyrus-dark.png");
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 #header-bar {
@@ -21,10 +22,12 @@ body {
 #title, #instructions, #scoreboard {
     width: 30%;
     text-align: center;
+    margin: auto;
 }
 
 #instructions {
     font-size: 24px;
+    font-style: italic
 }
 
 #game-board {
@@ -37,4 +40,58 @@ body {
     background-color: black;
     padding: 4px;
     border: solid 1px purple;
+}
+
+.game-piece:hover {
+    background-color: white;
+}
+
+@media only screen and (max-width: 970px) {
+    #score-stack {
+        color: purple;
+        font-size: 0px;
+    }
+    #scoreboard {
+        display: flex;
+        flex-direction: column
+    }
+    #score, #top-score {
+        width: 90%;
+    }
+    #instructions {
+        font-size: 22px;
+    }
+    #title, #scoreboard {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    #game-board {
+        width: 460px;
+    }
+    img {
+        width: 100px;
+    }
+    #instructions {
+        font-size: 18px;
+    }
+    #title, #scoreboard {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    #game-board {
+        width: 260px;
+    }
+    img {
+        width: 50px;
+    }
+    #instructions {
+        font-size: 12px;
+    }
+    #title, #scoreboard {
+        font-size: 14px;
+    }
 }

@@ -18,13 +18,11 @@ class App extends React.Component {
     this.shuffleArray();
     let alreadyClicked = this.state.clickedArray;
     if (alreadyClicked.indexOf(clickedPic) === -1) {
-      console.log("new click!");
       alreadyClicked.push(clickedPic)
       this.setState({ clickedArray: alreadyClicked });
       this.setState({ score : (this.state.score + 1)})
     }
     else {
-      console.log("loser click!");
       this.youLose();
     }
   };
@@ -38,7 +36,6 @@ class App extends React.Component {
   };
 
   youLose = () => {
-    console.log("current score " + this.score);
     if (this.state.score > this.state.topScore) {
       this.setState({ topScore: this.state.score });
     }
