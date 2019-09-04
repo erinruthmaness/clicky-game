@@ -5,7 +5,6 @@ function PhotoCard(props) {
         <img src={props.source}
             alt="game-piece"
             className="game-piece"
-            key={props.id}
             id={props.id}
             onClick={props.handleClick} />
     );

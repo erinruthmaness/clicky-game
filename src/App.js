@@ -53,6 +53,7 @@ class App extends React.Component {
           {this.state.photoArray.map(picture =>
             <PhotoCard
               source={picture.url}
+              key={picture.id}
               id={picture.id}
               handleClick={this.handleClick}
             />
